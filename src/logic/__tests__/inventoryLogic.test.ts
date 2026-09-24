@@ -7,7 +7,7 @@ import {
   canDeleteIngredient,
   validateIngredientForm,
 } from '../inventoryLogic';
-import { IngredientStock, Recipe } from '../../types';
+import type { IngredientStock, Recipe } from '../../types';
 import initialStock from '../../data/stock.json';
 import initialRecipes from '../../data/recipes.json';
 
