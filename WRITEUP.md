@@ -25,6 +25,10 @@ I interpret par as the kitchen's safety buffer — the minimum quantity they wan
 
 Menu availability is computed on every render from current stock vs. par levels. There is no separate `isAvailable` flag to maintain or sync. This means editing a par level, restocking, or ordering immediately affects the menu without any extra update logic.
 
+### Demo Video & Screen Recording
+
+![Kitchen Inventory & Menu Live Sync Demo](demo.webp)
+
 ---
 
 ## B. How I Checked
